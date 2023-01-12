@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/wangzm/ORB_SLAM3_2/Examples/ROS/devel/setup.sh
