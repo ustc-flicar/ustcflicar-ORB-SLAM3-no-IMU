@@ -28,7 +28,7 @@ For Bumblebee-XB3-Center Camera:
 
 For Bumblebee-XB3-Left/Right Camera:
   ```
-  rosrun ORB_SLAM3 Mono_Inertial YOUR_PROJECT_FOLDER/Vocabulary/ORBvoc.bin YOUR_PROJECT_FOLDER/yaml_ustcflicar/stereo/xb3.yaml  [EQUALIZATION]	
+  rosrun ORB_SLAM3 Stereo YOUR_PROJECT_FOLDER/Vocabulary/ORBvoc.bin YOUR_PROJECT_FOLDER/yaml_ustcflicar/stereo/xb3.yaml  [EQUALIZATION]	
 
   rosbag play YOUR_DATASET_FOLDER/hf001.bag --topics "/camera/left/iamge_raw" "/camera/right/iamge_raw"
   ```
